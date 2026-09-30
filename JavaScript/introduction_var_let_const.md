@@ -69,22 +69,24 @@ only x is print because var is a functional keyword or variable.
 And y and z show error because they are block scope keyword of variable.
 
 10. Fix the Program The following program contains multiple errors. Fix the code so that it runs correctly. Make sure your solution follows the rules for initialization, re-declaration, re-assignment, and scope.
-
+```JavaScript
 const name;
 
-*let age = 20;
-*let age = 25;
+let age = 20;
+let age = 25;
 
-*if (true) {
-   * var city = "Delhi";
-   * let country = "India";
-*}
+if (true) {
+    var city = "Delhi";
+    let country = "India";
+}
 
-*console.log(country);
+console.log(country);
 
-*const score = 50;
-*score = 80;
+const score = 50;
+score = 80;
+```
 Answer:
+```JavaScript
 var name;
 
 let age = 20;
@@ -97,7 +99,7 @@ if (true){
      }
 var score = 50;
 score = 80;
-
+```
 
 
 
