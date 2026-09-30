@@ -72,18 +72,18 @@ And y and z show error because they are block scope keyword of variable.
 
 const name;
 
-let age = 20;
-let age = 25;
+*let age = 20;
+*let age = 25;
 
-if (true) {
-    var city = "Delhi";
-    let country = "India";
-}
+*if (true) {
+   * var city = "Delhi";
+   * let country = "India";
+*}
 
-console.log(country);
+*console.log(country);
 
-const score = 50;
-score = 80;
+*const score = 50;
+*score = 80;
 Answer:
 var name;
 
