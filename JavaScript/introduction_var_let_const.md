@@ -52,7 +52,7 @@ Answer:
 <img width="738" height="441" alt="Screenshot 2026-09-30 194544" src="https://github.com/user-attachments/assets/67932e96-df85-42e0-98dc-ea52861f1725" />
 
 9. Predict and Explain Without running the code, predict the output of each console.log() and identify which lines cause errors. Explain your answer using the rules of scope, re-assignment, and variable declaration.
-
+```Javascript
 var x = 10;
 
 if (true) {
@@ -64,6 +64,7 @@ if (true) {
 console.log(x);
 console.log(y);
 console.log(z);
+```
 Answer:
 only x is print because var is a functional keyword or variable.
 And y and z show error because they are block scope keyword of variable.
